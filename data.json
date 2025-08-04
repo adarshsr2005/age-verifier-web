@@ -1,0 +1,25 @@
+[
+  {
+    "aadhaar":"655579414982",
+    "name": "Adarsh",
+    "DOB":"03/03/2005",
+    "phone":"6362341003",
+    "photo":"images/adarshphoto.jpg",
+    "address": {
+    "city": "Davangere",
+    "country": "India"
+      }
+  },
+
+  {
+    "aadhaar":"655579414983",
+    "name": "Akash",
+    "DOB":"25/10/2008",
+    "phone":"7975069853",
+    "photo":"images/cpho.jpg",
+    "address": {
+    "city": "Davangere",
+    "country": "India"
+     }
+  }
+]

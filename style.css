@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    boX-sizing:border-box;
+}
+
+#head{
+    background-color: aqua;
+    height:15vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#we{
+    height:65vh;
+    background-color: #F3F4F6;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.first-ele{
+    background-color: azure;
+    height:60vh;
+    width:50vh;
+    border-radius: 1rem;
+}
+
+.first{
+    height:20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-main{
+     margin-top: 5vh;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.thir{
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+}
+
+#button{
+    background-color: blue;
+    border-radius: 1rem;
+    height: 40px;
+    width:150px;
+    color:white;
+    font-size: 1rem;
+}
+
+#step{
+    padding-top: 20px;
+    height:5vh;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ph {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;      /* Full width of screen */
+    height: 800px;     /* Responsive height */
+    background-color:#F3F4F6; /* Optional */
+}
+
+.photo_1, .photo_2, .photo_3 {
+    width: 25%;             /* Take ~1/3 of space with gaps */
+    background-position: center;
+    height: 700px;     /* Responsive height */
+    background-size:cover;
+    border-radius: 10px;    /* Optional: rounded edges */
+}
+
+.photo_1 {
+    background-image: url('images/1.png');
+    font-weight: bold;
+    text-align: center;
+    padding:20px;
+}
+.photo_2 {
+    background-image: url('images/2.png');
+    font-weight: bold;
+    text-align: center;
+    padding:20px;
+}
+.photo_3 {
+    background-image: url('images/3.png');
+    font-weight: bold;
+    text-align: center;
+    padding:20px;
+}
+
+
+
+
+
+
+  
+
